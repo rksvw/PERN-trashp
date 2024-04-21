@@ -40,7 +40,7 @@ function Slider() {
     <Fragment>
       <section
         aria-label="Image Slider"
-        style={{ width: "100%", height: "100%", position: "relative" }}
+        style={{ width: "65%", height: "700px", position: "relative", display: "flex", alignItems:"center", justifyContent:"start" }}
       >
         <a href="#after-image-slider-controls" className="skip-link">
           Skip Image Slider Controls
@@ -51,6 +51,7 @@ function Slider() {
             height: "100%",
             display: "flex",
             overflow: "hidden",
+
           }}
         >
           {S_IMG.map((img, index) => (
@@ -84,7 +85,7 @@ function Slider() {
           style={{
             position: "absolute",
             bottom: ".5rem",
-            left: "50%",
+            right: "-40%",
             translate: "-50%",
             display: "flex",
             gap: ".25rem",

@@ -71,8 +71,8 @@
   all: unset;
   display: block;
   cursor: pointer;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   transition: scale 100ms ease-in-out;
 }
 

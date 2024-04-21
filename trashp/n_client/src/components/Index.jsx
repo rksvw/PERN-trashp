@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import SliderData from "./SliderData";
 import Slider from "./Slider";
 import "./slider.css";
+import "./sliderData.css";
+import GameProduct from "./GameProduct";
 
 function Index() {
   return (
@@ -10,6 +12,7 @@ function Index() {
         <Slider />
         <SliderData />
       </section>
+      <GameProduct />
     </Fragment>
   );
 }
