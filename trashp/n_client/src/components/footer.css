@@ -1,0 +1,107 @@
+.ft {
+    width: 96%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px !important;
+    background-color: #283150;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.ft > .ft-top-container {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft > .ft-top-container > h1 {
+    font-family: 'GT-American', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+}
+
+.ft > .ft-bottom-container {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft > .ft-bottom-container > .bottom-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.ft > .ft-bottom-container > .bottom-left > strong {
+    font-family: 'GT-American', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.ft > .ft-bottom-container > .bottom-left > span {
+    font-family: 'GT-American', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    color: #757575;
+    letter-spacing: 0.06rem;
+}
+
+.ft > .ft-bottom-container > .none {
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+
+.ft > .ft-bottom-container > .bottom-right {
+    display: flex;
+    /* flex-direction: column; */
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: right;
+    margin-bottom: 5px;
+}
+
+.ft > .ft-bottom-container > .bottom-right > ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: left;
+    list-style: none;
+}
+
+.ft > .ft-bottom-container > .bottom-right > ul > li {
+    font-family: 'GT-American', 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.ft > .ft-bottom-container > .bottom-right > ul > li > a {
+    color: #A9B1B1;
+    text-decoration: none;
+}
+
+.ft > .ft-bottom-container > .bottom-right > ul > li > a:hover {
+    color: #FF00C8;
+}

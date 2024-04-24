@@ -5,12 +5,14 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import SignupPage from "./pages/SignupPage";
 import LoginPage from "./pages/LoginPage";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 const Layout = () => {
   return (
     <div>
       <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 };

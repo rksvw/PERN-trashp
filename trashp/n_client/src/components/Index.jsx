@@ -4,6 +4,7 @@ import Slider from "./Slider";
 import "./slider.css";
 import "./sliderData.css";
 import GameProduct from "./GameProduct";
+import NewsLater from "./NewsLater";
 
 function Index() {
   return (
@@ -13,6 +14,7 @@ function Index() {
         <SliderData />
       </section>
       <GameProduct />
+      <NewsLater />
     </Fragment>
   );
 }

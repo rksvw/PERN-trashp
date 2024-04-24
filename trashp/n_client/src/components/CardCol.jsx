@@ -1,6 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
 import Releases from "./Releases";
-import Soon from "./Soon";
 import "./release.css";
 
 const api_key = "8e5ab8c0d90445c49714b423bf53c004";
@@ -35,7 +34,6 @@ function CardCol() {
       ) : (
         <Releases data={gameData} />
       )}
-      <Soon />
     </Fragment>
   );
 }

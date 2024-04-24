@@ -1,0 +1,162 @@
+.news-panel {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #3C4F68; */
+    /* background-color: #45F5FA; */
+    /* background-color: #424450; */
+    /* background-color: #4C5365; */
+    background-color: #24324D;
+    font-family: "GT-American", "Kanit", sans-serif;
+}
+
+.news-panel > .panel-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-panel > .panel-image > img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center top;
+}
+
+.news-panel > form {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #0E0F12; */
+    border-radius: 10px;
+}
+
+.news-panel > form > h1 {
+    color: #60BFD6;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.news-panel > form > p {
+    width: 600px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    color: #56616b;
+    font-family: "Kanit", monospace;
+    margin-bottom: 15px;
+}
+
+.news-panel > form > .snd {
+    display: flex;
+    width: 100%;
+    height: 2.9rem;
+}
+
+.news-panel > form > .snd > input {
+    width: 75%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    position: relative;
+}
+
+.news-panel > form > .snd > button {
+    width: 9rem;
+    height: 2.9rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    background-color: #EA5B10;
+    position: absolute;
+    right: 12.5%;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.news-panel > form > .snd > button:hover {
+    background-color: #FFFF01;
+    color: black;
+    transition: background-color .3s ease-in-out;
+}
+
+.news-panel > form > .snd > button > .ic-email {
+    font-weight: bolder;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.news-panel > form > .snd > button > p {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.news-panel > form > .terms {
+    display: flex;
+    width: 80%;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.news-panel > form > .terms > input {
+    width: auto;
+    height: auto;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+.news-panel > form > .terms > p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(180, 180, 180);
+    letter-spacing: 0.015rem;
+    /* display: flex; */
+    align-items: left;
+}
+
+.news-panel > form > .terms > p > .a {
+    color: rgb(255, 120, 120);
+    text-decoration: none;
+}
+
+.news-panel > form > .terms > p > .a:hover {
+    text-decoration: underline;
+    color: #5f5dda;
+}
